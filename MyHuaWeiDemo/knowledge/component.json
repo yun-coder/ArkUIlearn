@@ -1,0 +1,1097 @@
+{
+  "AbilityComponent": {
+    "attrs": [
+      "onReady",
+      "onDestroy",
+      "onAbilityCreated",
+      "onAbilityMoveToFront",
+      "onAbilityWillRemove",
+      "onConnect",
+      "onDisconnect"
+    ],
+    "atomic": true
+  },
+  "AlphabetIndexer": {
+    "attrs": [
+      "onSelected",
+      "selectedColor",
+      "popupColor",
+      "selectedBackgroundColor",
+      "popupBackground",
+      "usingPopup",
+      "selectedFont",
+      "popupFont",
+      "itemSize",
+      "font",
+      "color",
+      "alignStyle",
+      "onRequestPopupData",
+      "onPopupSelect",
+      "selected",
+      "popupPosition",
+      "onSelect"
+    ]
+  },
+  "Animator": {
+    "atomic": true,
+    "noDebugLine": true,
+    "attrs": [
+      "state",
+      "duration",
+      "curve",
+      "delay",
+      "fillMode",
+      "iterations",
+      "playMode",
+      "motion",
+      "onStart",
+      "onPause",
+      "onRepeat",
+      "onCancel",
+      "onFinish",
+      "onFrame"
+    ]
+  },
+  "Badge": {
+    "atomics": true,
+    "attrs": [
+
+    ]
+  },
+  "Blank": {
+    "parents": [
+      "Row",
+      "Column"
+    ],
+    "atomic": true,
+    "attrs": [
+      "color"
+    ]
+  },
+  "Button": {
+    "single": true,
+    "attrs": [
+      "type",
+      "stateEffect",
+      "fontColor",
+      "fontSize",
+      "fontWeight",
+      "fontStyle",
+      "fontFamily"
+    ]
+  },
+  "Calendar": {
+    "attrs": [
+      "date",
+      "showLunar",
+      "startOfWeek",
+      "offDays",
+      "onSelectChange",
+      "onRequestData",
+      "currentData",
+      "preData",
+      "nextData",
+      "needSlide",
+      "showHoliday",
+      "direction",
+      "currentDayStyle",
+      "nonCurrentDayStyle",
+      "todayStyle",
+      "weekStyle",
+      "workStateStyle"
+    ]
+  },
+  "Camera": {
+    "atomic": true,
+    "attrs": [
+      "devicePosition"
+    ]
+  },
+  "Canvas": {
+    "attrs": [
+      "onReady"
+    ]
+  },
+  "Checkbox": {
+    "attrs": [
+      "select",
+      "selectedColor",
+      "onChange"
+    ]
+  },
+  "CheckboxGroup": {
+    "attrs": [
+      "selectAll",
+      "selectedColor",
+      "onChange"
+    ]
+  },
+  "Circle": {
+    "atomic": true
+  },
+  "ColorPicker": {
+    "attrs": [
+      "colors",
+      "onSelect",
+      "setAlignment",
+      "setColunms",
+      "setRows"
+    ]
+  },
+  "ColorPickerDialog": {
+    "attrs": [
+      "show"
+    ]
+  },
+  "Column": {
+    "attrs": [
+      "alignItems",
+      "justifyContent"
+    ]
+  },
+  "ColumnSplit": {
+    "attrs": [
+      "resizeable"
+    ]
+  },
+  "Counter": {
+    "attrs": [
+      "onStateChange",
+      "onInc",
+      "onDec",
+      "height",
+      "width"
+    ]
+  },
+  "DataPanel": {
+    "atomic": false,
+    "attrs": [
+      "closeEffect"
+    ]
+  },
+  "DatePicker": {
+    "attrs": [
+      "lunar",
+      "onChange",
+      "useMilitaryTime"
+    ]
+  },
+  "Divider": {
+    "atomic": true,
+    "attrs": [
+      "color",
+      "vertical",
+      "strokeWidth",
+      "lineCap"
+    ]
+  },
+  "Ellipse": {
+    "atomic": true
+  },
+  "Flex": {
+    "attrs": [
+
+    ]
+  },
+  "FlowItem": {
+    "parents": [
+      "WaterFlow"
+    ],
+    "single": true,
+    "attrs": [
+
+    ]
+  },
+  "FormComponent": {
+    "atomic": true,
+    "attrs": [
+      "size",
+      "moduleName",
+      "dimension",
+      "allowUpdate",
+      "visibility",
+      "onAcquired",
+      "onError",
+      "onRouter",
+      "onUninstall"
+    ]
+  },
+  "FrictionMotion": {
+    "atomic": true
+  },
+  "Gauge": {
+    "atomic": true,
+    "attrs": [
+      "value",
+      "startAngle",
+      "endAngle",
+      "colors",
+      "strokeWidth",
+      "labelConfig"
+    ]
+  },
+  "GeometryView": {
+    "atomic": true
+  },
+  "Grid": {
+    "children": [
+      "GridItem"
+    ],
+    "attrs": [
+      "columnsTemplate",
+      "rowsTemplate",
+      "columnsGap",
+      "rowsGap",
+      "scrollBar",
+      "scrollBarWidth",
+      "scrollBarColor",
+      "editMode",
+      "maxCount",
+      "minCount",
+      "cellLength",
+      "onItemDragStart",
+      "onItemDragMove",
+      "onItemDragEnter",
+      "onItemDragMove",
+      "onItemDrop",
+      "layoutDirection",
+      "direction",
+      "supportAnimation",
+      "dragAnimation",
+      "edgeEffection",
+      "onItemDragLeave",
+      "multiSelectable",
+      "onScrollIndex"
+    ]
+  },
+  "GridItem": {
+    "parents": [
+      "Grid"
+    ],
+    "single": true,
+    "attrs": [
+      "rowStart",
+      "rowEnd",
+      "columnStart",
+      "columnEnd",
+      "forceRebuild",
+      "selectable",
+      "onSelect"
+    ]
+  },
+  "GridCol": {
+    "parents": [
+      "GridRow"
+    ],
+    "single": true,
+    "attrs": [
+      "span",
+      "offset",
+      "order"
+    ]
+  },
+  "GridContainer": {
+    "attrs": [
+      "columns",
+      "sizeType",
+      "gutter",
+      "margin"
+    ]
+  },
+  "GridRow": {
+    "children": [
+      "GridCol"
+    ],
+    "attrs": [
+      "onBreakpointChange"
+    ]
+  },
+  "Hyperlink": {
+    "attrs": [
+      "color"
+    ]
+  },
+  "Image": {
+    "atomic": true,
+    "attrs": [
+      "alt",
+      "objectFit",
+      "matchTextDirection",
+      "fitOriginalSize",
+      "objectRepeat",
+      "renderMode",
+      "interpolation",
+      "onComplete",
+      "onError",
+      "onFinish",
+      "sourceSize",
+      "fillColor",
+      "autoResize",
+      "syncLoad"
+    ]
+  },
+  "ImageAnimator": {
+    "atomic": true,
+    "attrs": [
+      "images",
+      "state",
+      "duration",
+      "reverse",
+      "fixedSize",
+      "preDecode",
+      "fillMode",
+      "iterations",
+      "onStart",
+      "onPause",
+      "onRepeat",
+      "onCancel",
+      "onFinish"
+    ]
+  },
+  "Line": {
+    "atomic": true,
+    "attrs": [
+      "startPoint",
+      "endPoint"
+    ]
+  },
+  "List": {
+    "children": [
+      "ListItem",
+      "Section",
+      "ListItemGroup"
+    ],
+    "attrs": [
+      "listDirection",
+      "scrollBar",
+      "edgeEffect",
+      "divider",
+      "editMode",
+      "cachedCount",
+      "sticky",
+      "chainAnimation",
+      "onScroll",
+      "onReachStart",
+      "onReachEnd",
+      "onScrollStop",
+      "onItemDelete",
+      "onItemMove",
+      "onItemDragStart",
+      "onItemDragEnter",
+      "onItemDragMove",
+      "onItemDragLeave",
+      "onItemDrop",
+      "multiSelectable",
+      "onScrollIndex",
+      "onScrollBegin"
+    ]
+  },
+  "ListItem": {
+    "parents": [
+      "List",
+      "ListItemGroup"
+    ],
+    "single": true,
+    "attrs": [
+      "sticky",
+      "editable",
+      "selectable",
+      "swipeAction",
+      "onSelect"
+    ]
+  },
+  "ListItemGroup": {
+    "parents": [
+      "List"
+    ],
+    "children": [
+      "ListItem"
+    ],
+    "attrs": [
+      "divider"
+    ]
+  },
+  "LoadingProgress": {
+    "atomic": true,
+    "attrs": [
+      "color"
+    ]
+  },
+  "Marquee": {
+    "attrs": [
+      "fontColor",
+      "fontSize",
+      "allowScale",
+      "fontWeight",
+      "fontFamily",
+      "onStart",
+      "onBounce",
+      "onFinish"
+    ]
+  },
+  "Menu": {
+    "children": [
+      "Option",
+      "MenuItem",
+      "MenuItemGroup"
+    ],
+    "attrs": [
+      "show",
+      "showPosition",
+      "fontColor",
+      "fontSize",
+      "fontWeight",
+      "fontFamily"
+    ]
+  },
+  "MenuItem": {
+    "parent": [
+      "Menu",
+      "MenuItemGroup"
+    ],
+    "attrs": [
+      "selectIcon",
+      "onChange"
+    ]
+  },
+  "MenuItemGroup": {
+    "children": [
+      "MenuItem"
+    ]
+  },
+  "NavDestination": {
+    "attrs": [
+      "title",
+      "hideTitleBar"
+    ]
+  },
+  "NavRouter": {
+    "attrs": [
+      "onStateChange"
+    ]
+  },
+  "Navigation": {
+    "attrs": [
+      "title",
+      "subTitle",
+      "hideTitleBar",
+      "hideBackButton",
+      "titleMode",
+      "menus",
+      "menuCount",
+      "toolBar",
+      "hideToolBar",
+      "onTitleModeChange",
+      "onNavBarStateChange",
+      "navBarWidth",
+      "navBarPosition",
+      "mode",
+      "backButtonIcon",
+      "hideNavBar"
+    ]
+  },
+  "Navigator": {
+    "single": true,
+    "attrs": [
+      "target",
+      "type",
+      "params",
+      "active"
+    ]
+  },
+  "Option": {
+    "parents": [
+      "Menu"
+    ],
+    "attrs": [
+      "fontColor",
+      "fontSize",
+      "fontWeight",
+      "fontFamily"
+    ]
+  },
+  "PageTransitionEnter": {
+    "atomic": true,
+    "noDebugLine": true,
+    "attrs": [
+      "onEnter"
+    ]
+  },
+  "PageTransitionExit": {
+    "atomic": true,
+    "noDebugLine": true,
+    "attrs": [
+      "onExit"
+    ]
+  },
+  "Panel": {
+    "attrs": [
+      "type",
+      "mode",
+      "dragBar",
+      "fullHeight",
+      "backgroundMask",
+      "halfHeight",
+      "miniHeight",
+      "show",
+      "onChange",
+      "onHeightChange"
+    ]
+  },
+  "Path": {
+    "atomic": true,
+    "attrs": [
+      "commands"
+    ]
+  },
+  "PatternLock": {
+    "atomic": true,
+    "attrs": [
+      "sideLength",
+      "circleRadius",
+      "backgroundColor",
+      "regularColor",
+      "selectedColor",
+      "activeColor",
+      "pathColor",
+      "pathStrokeWidth",
+      "onPatternComplete",
+      "autoReset"
+    ]
+  },
+  "Piece": {
+    "attrs": [
+      "iconPosition",
+      "fontColor",
+      "fontSize",
+      "fontStyle",
+      "fontWeight",
+      "fontFamily",
+      "showDelete",
+      "onClose"
+    ]
+  },
+  "PluginComponent": {
+    "attrs": [
+      "size",
+      "onComplete",
+      "onError"
+    ]
+  },
+  "Polygon": {
+    "atomic": true,
+    "attrs": [
+      "points"
+    ]
+  },
+  "Polyline": {
+    "atomic": true,
+    "attrs": [
+      "points"
+    ]
+  },
+  "Progress": {
+    "atomic": true,
+    "attrs": [
+      "value",
+      "color",
+      "cricularStyle",
+      "circularStyle",
+      "style"
+    ]
+  },
+  "QRCode": {
+    "attrs": [
+      "color",
+      "backgroundColor"
+    ]
+  },
+  "Radio": {
+    "atomic": true,
+    "attrs": [
+      "checked",
+      "onChange"
+    ]
+  },
+  "Rating": {
+    "attrs": [
+      "stars",
+      "stepSize",
+      "starStyle",
+      "onChange"
+    ]
+  },
+  "Rect": {
+    "atomic": true,
+    "attrs": [
+      "radiusWidth",
+      "radiusHeight",
+      "radius"
+    ]
+  },
+  "Refresh": {
+    "single": true,
+    "attrs": [
+      "refreshing",
+      "offset",
+      "friction",
+      "onStateChange",
+      "onRefreshing"
+    ]
+  },
+  "RelativeContainer": {
+    "attrs": [
+
+    ]
+  },
+  "RemoteWindow": {
+    "atomic": true,
+    "attrs": [
+      "WindowAnimationTarget"
+    ]
+  },
+  "RichText": {
+    "single": true,
+    "attrs": [
+      "onStart",
+      "onComplete"
+    ]
+  },
+  "Row": {
+    "attrs": [
+      "alignItems",
+      "justifyContent"
+    ]
+  },
+  "RowSplit": {
+    "attrs": [
+      "resizeable"
+    ]
+  },
+  "Scroll": {
+    "attrs": [
+      "scrollable",
+      "onScroll",
+      "onScrollEdge",
+      "onScrollEnd",
+      "scrollBar",
+      "scrollBarColor",
+      "scrollBarWidth",
+      "edgeEffect",
+      "onScrollBegin"
+    ]
+  },
+  "ScrollBar": {
+    "attrs": [
+
+    ],
+    "atomic": false,
+    "single": true
+  },
+  "ScrollMotion": {
+    "atomic": true
+  },
+  "Search": {
+    "atomic": true,
+    "attrs": [
+      "searchButton",
+      "placeholderColor",
+      "placeholderFont",
+      "textFont",
+      "onSubmit",
+      "onChange",
+      "onCopy",
+      "OnCut",
+      "OnPaste",
+      "copyOption"
+    ]
+  },
+  "Section": {
+    "attrs": [
+
+    ]
+  },
+  "Select": {
+    "attrs": [
+      "selected",
+      "value",
+      "font",
+      "fontColor",
+      "selectedOptionBgColor",
+      "selectedOptionFont",
+      "selectedOptionFontColor",
+      "optionBgColor",
+      "optionFont",
+      "optionFontColor",
+      "onSelect"
+    ]
+  },
+  "Shape": {
+    "children": [
+      "Rect",
+      "Path",
+      "Circle",
+      "Ellipse",
+      "Shape",
+      "Polyline",
+      "Polygon",
+      "Image",
+      "Text",
+      "Column",
+      "Row"
+    ],
+    "attrs": [
+      "stroke",
+      "fill",
+      "strokeDashOffset",
+      "strokeLineCap",
+      "strokeLineJoin",
+      "strokeMiterLimit",
+      "strokeOpacity",
+      "fillOpacity",
+      "strokeWidth",
+      "antiAlias",
+      "strokeDashArray",
+      "viewPort",
+      "mesh"
+    ]
+  },
+  "Sheet": {
+    "children": [
+      "Section"
+    ],
+    "attrs": [
+
+    ]
+  },
+  "SideBarContainer": {
+    "attrs": [
+      "showSideBar",
+      "controlButton",
+      "showControlButton",
+      "onChange",
+      "sideBarWidth",
+      "minSideBarWidth",
+      "maxSideBarWidth",
+      "autoHide",
+      "sideBarPosition"
+    ]
+  },
+  "Slider": {
+    "atomic": true,
+    "attrs": [
+      "blockColor",
+      "trackColor",
+      "selectedColor",
+      "minLabel",
+      "maxLabel",
+      "showSteps",
+      "showTips",
+      "trackThickness",
+      "onChange"
+    ]
+  },
+  "Span": {
+    "atomic": true,
+    "attrs": [
+      "fontColor",
+      "fontSize",
+      "fontStyle",
+      "fontFamily",
+      "fontWeight",
+      "decoration",
+      "letterSpacing",
+      "textCase"
+    ]
+  },
+  "SpringMotion": {
+    "atomic": true
+  },
+  "SpringProp": {
+    "atomic": true
+  },
+  "Stack": {
+    "attrs": [
+      "alignContent"
+    ]
+  },
+  "Stepper": {
+    "children": [
+      "StepperItem"
+    ],
+    "attrs": [
+      "onFinish",
+      "onSkip",
+      "onChange",
+      "onNext",
+      "onPrevious"
+    ]
+  },
+  "StepperItem": {
+    "parents": [
+      "Stepper"
+    ],
+    "single": true,
+    "attrs": [
+      "prevLabel",
+      "nextLabel",
+      "status"
+    ]
+  },
+  "Swiper": {
+    "attrs": [
+      "index",
+      "autoPlay",
+      "interval",
+      "indicator",
+      "loop",
+      "duration",
+      "vertical",
+      "itemSpace",
+      "cachedCount",
+      "displayMode",
+      "displayCount",
+      "effectMode",
+      "disableSwipe",
+      "curve",
+      "onChange",
+      "indicatorStyle"
+    ]
+  },
+  "TabContent": {
+    "parents": [
+      "Tabs"
+    ],
+    "attrs": [
+      "tabBar"
+    ],
+    "single": true
+  },
+  "Tabs": {
+    "children": [
+      "TabContent"
+    ],
+    "attrs": [
+      "vertical",
+      "scrollable",
+      "barMode",
+      "barWidth",
+      "barHeight",
+      "animationDuration",
+      "onChange",
+      "barPosition"
+    ]
+  },
+  "Text": {
+    "children": [
+      "Span"
+    ],
+    "attrs": [
+      "fontColor",
+      "fontSize",
+      "fontStyle",
+      "fontWeight",
+      "textAlign",
+      "lineHeight",
+      "textOverflow",
+      "maxLines",
+      "decoration",
+      "letterSpacing",
+      "textCase",
+      "baselineOffset",
+      "minFontSize",
+      "maxFontSize",
+      "copyOption"
+    ]
+  },
+  "TextPicker": {
+    "attrs": [
+      "defaultPickerItemHeight",
+      "onAccept",
+      "onCancel",
+      "onChange"
+    ]
+  },
+  "TextClock": {
+    "attrs": [
+      "format",
+      "onDateChange",
+      "fontColor",
+      "fontSize",
+      "fontStyle",
+      "fontWeight",
+      "fontFamily"
+    ]
+  },
+  "TextArea": {
+    "atomic": true,
+    "attrs": [
+      "placeholderColor",
+      "placeholderFont",
+      "textAlign",
+      "caretColor",
+      "onChange",
+      "onCopy",
+      "OnCut",
+      "OnPaste",
+      "fontSize",
+      "fontColor",
+      "fontStyle",
+      "fontWeight",
+      "fontFamily",
+      "inputFilter",
+      "copyOption"
+    ]
+  },
+  "TextInput": {
+    "atomic": true,
+    "attrs": [
+      "type",
+      "placeholderColor",
+      "placeholderFont",
+      "enterKeyType",
+      "caretColor",
+      "maxLength",
+      "onEditChanged",
+      "onSubmit",
+      "onChange",
+      "onCopy",
+      "OnCut",
+      "OnPaste",
+      "fontSize",
+      "fontColor",
+      "fontStyle",
+      "fontWeight",
+      "fontFamily",
+      "inputFilter",
+      "onEditChange",
+      "copyOption",
+      "style"
+    ]
+  },
+  "TextTimer": {
+    "attrs": [
+      "format",
+      "fontColor",
+      "fontSize",
+      "fontStyle",
+      "fontWeight",
+      "fontFamily",
+      "onTimer"
+    ]
+  },
+  "TimePicker": {
+    "attrs": [
+      "onChange",
+      "useMilitaryTime"
+    ]
+  },
+  "Toggle": {
+    "attrs": [
+      "onChange",
+      "selectedColor",
+      "switchPointColor"
+    ]
+  },
+  "Video": {
+    "atomic": true,
+    "attrs": [
+      "muted",
+      "autoPlay",
+      "controls",
+      "loop",
+      "objectFit",
+      "onSeeking",
+      "onFullscreenChange",
+      "onStart",
+      "onPause",
+      "onPrepared",
+      "onFinish",
+      "onSeeked",
+      "onUpdate",
+      "onError"
+    ]
+  },
+  "WaterFlow": {
+    "children": [
+      "FlowItem"
+    ],
+    "attrs": [
+      "onReachEnd",
+      "onReachStart",
+      "itemConstraintSize",
+      "rowsTemplate",
+      "columnsTemplate",
+      "columnsGap",
+      "rowsGap",
+      "layoutDirection"
+    ]
+  },
+  "Web": {
+    "atomic": true,
+    "attrs": [
+      "password",
+      "cacheMode",
+      "tableData",
+      "wideViewModeAccess",
+      "overviewModeAccess",
+      "textZoomAtio",
+      "databaseAccess",
+      "onRefreshAccessedHistory",
+      "onUrlLoadIntercept",
+      "onSslErrorReceive",
+      "onRenderExited",
+      "onFileSelectorShow",
+      "onPageEnd",
+      "onPageBegin",
+      "onProgressChange",
+      "onTitleReceive",
+      "onGeolocationHide",
+      "onGeolocationShow",
+      "onRequestSelected",
+      "javaScriptAccess",
+      "fileAccess",
+      "onAlert",
+      "onBeforeUnload",
+      "onlineImageAccess",
+      "domStorageAccess",
+      "imageAccess",
+      "mixedMode",
+      "zoomAccess",
+      "geolocationAccess",
+      "javaScriptProxy",
+      "onFullScreenExit",
+      "onFullScreenEnter",
+      "userAgent",
+      "onConfirm",
+      "onConsole",
+      "onErrorReceive",
+      "onHttpErrorReceive",
+      "onDownloadStart",
+      "webDebuggingAccess",
+      "onShowFileSelector",
+      "initialScale",
+      "onResourceLoad",
+      "onScaleChange",
+      "onHttpAuthRequest",
+      "onPermissionRequest",
+      "onContextMenuShow",
+      "textZoomRatio",
+      "onScroll",
+      "mediaPlayGestureAccess",
+      "onSslErrorEventReceive",
+      "onClientAuthenticationRequest",
+      "horizontalScrollBarAccess",
+      "verticalScrollBarAccess"
+    ]
+  },
+  "XComponent": {
+    "attrs": [
+      "id",
+      "type",
+      "libraryname",
+      "onLoad",
+      "onDestroy"
+    ]
+  }
+}
